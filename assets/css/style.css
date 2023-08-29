@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+
+}
+
+.acc {
+    color: var(--gray, #808080);
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.Accordian-box {
+    width: 540px;
+    height: 466px;
+    top: 87px;
+    padding: 24px 21px 24px 21px;
+
+    gap: 10px;
+    display: flex;
+    padding: 24px 21px;
+    flex-direction: column;
+    align-items: flex-start;
+
+    border-radius: 20px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 11px 44px -10px rgba(0, 0, 0, 0.25);
+}
+
+.accbox {
+    padding: 17px 11px 18px 19px;
+    border-radius: 5px;
+    border: 1px solid var(--border, rgba(0, 0, 0, 0.10));
+}
+
+.text {
+    Width: 468px;
+    display: none;
+}
+
+.active {
+    border: 1px solid gary;
+}
+
+.active p {
+    display: block;
+}
+
+.active img {
+    transform: rotate(180deg);
+}
+
+.active h2 {
+    color: #000;
+}
